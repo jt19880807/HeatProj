@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebService:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebService_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WebService/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebService" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.10.RELEASE" />
+          <element id="library" level="project" name="Spring Web Services-2.0.2" />
+          <element id="library" level="application" name="com.google.code.gson:gson:2.7" />
+          <element id="library" level="application" name="com.alibaba:druid:1.0.26" />
+          <element id="library" level="application" name="org.apache.logging.log4j:log4j-core:2.7" />
+          <element id="library" level="application" name="mysql:mysql-connector-java:5.1.40" />
+          <element id="library" level="project" name="Spring MVC-4.3.10.RELEASE" />
+          <element id="library" level="project" name="com.fasterxml.jackson.core:jackson-databind:2.9.1" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/apache-log4j-2.10.0-bin/log4j-api-2.10.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/apache-log4j-2.10.0-bin/log4j-core-2.10.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/jar/gson-2.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/jar/log4j-api-2.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/jar/log4j-core-2.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/jar/mysql-connector-java-5.1.40.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/jar/druid-1.0.26.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

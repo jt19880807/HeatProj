@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/WebService/src/main/java/com/ps/heat/entity/InnerRoomInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/WebService/src/main/java/com/ps/heat/entity/ValveControlCmd.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebService/src/main/java/com/ps/heat/service/ValveUtilService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebService/src/main/java/com/ps/heat/service/impl/MeterDataServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/WebService/src/main/java/com/ps/heat/service/impl/ValveDataServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/WebService/src/main/java/com/ps/heat/service/impl/ValveUtilServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/WebService/web/WEB-INF/context-common.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/WebService/web/WEB-INF/context-dao.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/WebService/web/WEB-INF/dispatcher-servlet.xml" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

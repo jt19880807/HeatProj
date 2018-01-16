@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="propertyConfigurer"
+          class="com.ps.heat.configurer.EncryptPropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:config/jdbc.properties</value>
+
+            </list>
+        </property>
+    </bean>
+
+    <bean id="propertyConfigurer1" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+        <property name="locations">
+            <list>
+                <value>classpath:config/checkCode.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="com.ps.heat.util.SpringContextUtil" lazy-init="false"/>
+
+</beans>
